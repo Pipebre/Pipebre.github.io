@@ -1,8 +1,8 @@
 #about-article{
+	margin: 50px 30px 0 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 40px;
 }
 
 #article-img{
@@ -13,4 +13,38 @@
 #article-text{
 	max-width: 500px;
 	padding: 20px;
+}
+
+#article-text h2{
+	margin-bottom: 10px;
+}
+
+@media (max-width: 991.98px) {
+	#about-article{
+		margin: 0;
+		flex-direction: column;
+	}
+
+	#article-img{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		height: auto;
+		width: 100%;
+		max-width: 575.98px;
+		order: 1;
+	}
+
+	#article-text{
+		order: 2;
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 575.98px){
+
+	#article-img{
+		margin-top: 0;
+		border-radius: 0;
+	}
+
 }
