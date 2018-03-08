@@ -1,0 +1,16 @@
+#about-article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+#article-img{
+	height: 300px;
+	border-radius: 2px;
+}
+
+#article-text{
+	max-width: 500px;
+	padding: 20px;
+}
