@@ -225,14 +225,18 @@ nav{
 	}
 
 	#menu li{
-		box-sizing: border-box;
 		width: 100%;
-		padding: 10px 0 10px 15px;
 		border-bottom: 1px solid rgba(0,0,0,0.2);
+		display: block;
+		position: relative;
 	}
 
 	#menu li a{
+		display: block;
+		padding: 10px 0 10px 15px;
+		width: 100%;
 		text-decoration: none !important;
+		box-sizing: border-box;
 	}
 
 	#menu li.active, #menu li:hover{
