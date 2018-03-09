@@ -45,17 +45,19 @@ li{
 
 main{
 	overflow: hidden;
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 #main-header{
-	max-width: 1200px;
+	max-width: 1400px;
 	padding: 0 10px;
 	margin: 40px auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	box-sizing: border-box;
 }
 
 #main-header h1{
