@@ -13,10 +13,14 @@
 #article-text{
 	max-width: 500px;
 	padding: 20px;
+	margin-right: 10px;
+	text-align: justify;
 }
 
 #article-text h2{
 	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	line-height: 1.5;
 }
 
 @media (max-width: 991.98px) {
@@ -37,6 +41,7 @@
 	#article-text{
 		order: 2;
 		margin-bottom: 40px;
+		margin-right: 0;
 	}
 }
 
