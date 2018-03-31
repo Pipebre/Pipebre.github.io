@@ -1,6 +1,9 @@
 {
 	{
-
+		/*This little program collects  all the project sections of the projects
+		page and adds them to the menu so the user is able to select the only
+		section he wants to see. */
+		
 		const menu= document.getElementById('projects-menu');
 		const allButton= menu.firstElementChild;
 		allButton.addEventListener('click', ()=>{

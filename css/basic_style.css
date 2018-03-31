@@ -1,5 +1,10 @@
 :root{
-	
+	--background_color: #f8f6f6;
+	--twitter_color: #1da1f2;
+	--youtube_color: #ff0000;
+	--facebook_color: #2964de;
+	--soundcloud_color: #f50;
+	--instagram_color: #ed18c8;
 }
 
 *{
@@ -8,12 +13,12 @@
 }
 
 html{
-	font-family: "Trebuchet MS", sans-serif;
+	font-family: Helvetica;
 	font-size: 18px;
 }
 
 body{
-	background-color: white;
+	background-color: var(--background_color);
 	min-width: 300px;	
 }
 
@@ -52,7 +57,6 @@ main{
 }
 
 #main-header{
-	max-width: 1400px;
 	padding: 0 10px;
 	margin: 40px auto;
 	display: flex;
@@ -62,18 +66,67 @@ main{
 }
 
 #main-header h1{
+	font-size: 42px;
 	margin: 0 25px;
 	min-width: 235px;
 }
 
+@media (max-width: 991.98px) {
+
+	#main-header h1{
+		font-size: 36px;
+	}
+
+}
+
 #social-networks{
-	margin: 0 auto;
+	margin: 0 auto 0 5%;
 	display: flex;
 	align-items: flex-end;
 }
 
+@media (max-width: 991.98px) {
+
+	#social-networks{
+		margin-left: auto;
+	}
+
+}
+
 #social-networks a{
 	font-size: 25px;
+}
+
+.fa-twitter:hover{
+	color: var(--twitter_color);
+}
+
+.fa-instagram:hover{
+	color: var(--instagram_color);
+}
+
+.fa-facebook:hover{
+	color: var(--facebook_color);
+}
+
+.fa-youtube:hover{
+	color: var(--youtube_color);
+}
+
+.fa-soundcloud:hover{
+	color: var(--soundcloud_color);
+}
+
+@media (max-width: 991.98px) {
+
+	#social-networks{
+		margin-left: auto;
+	}
+
+	#social-networks a{
+		font-size: 22px;
+	}
+
 }
 
 #social-networks a:not(:last-child){
@@ -85,7 +138,7 @@ main{
 }
 
 nav{
-	margin: 0 auto;
+	margin: 0 5% 0 auto;
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 5px;
@@ -93,13 +146,26 @@ nav{
 
 #menu{
 	display: flex;
+	font-size: 23px;
+}
+
+@media (max-width: 991.98px) {
+
+	nav{
+		margin-right: auto;
+	}
+
+	#menu{
+		font-size: 18px;
+	}
+
 }
 
 #menu li:not(:last-child){
 	margin-right: 25px;
 }
 
-#menu li a:hover, #menu li.active a{
+#menu li.active a{
 	text-decoration: underline;
 }
 

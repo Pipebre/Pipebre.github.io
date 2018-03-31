@@ -24,6 +24,7 @@
 }
 
 @media (max-width: 991.98px) {
+	
 	#about-article{
 		margin: 0;
 		flex-direction: column;
