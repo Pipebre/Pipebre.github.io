@@ -147,6 +147,7 @@ nav{
 #menu{
 	display: flex;
 	font-size: 23px;
+	color: #4B4B4B;
 }
 
 @media (min-width: 768px) {
@@ -298,6 +299,7 @@ nav{
 	#menu{
 		flex-direction: column;
 		width: 100%;
+		color: black;
 	}
 
 	#menu li{
