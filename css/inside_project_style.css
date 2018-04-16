@@ -10,17 +10,15 @@
 #project-info{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	padding: 20px;
-	min-width: 100px;
+	width: 200px;
 }
 
-#project-info p{
+#project-info li{
 	margin-bottom: 10px;
 	font-size: 16px;
 }
 
-#project-info p span{
+#project-info h4{
 	margin-bottom: 3px;
 	font-size: 18px;
 	font-weight: bold;
@@ -37,7 +35,14 @@
 }
 
 #project-text iframe{
+	align-self: center;
 	margin:20px 0;
+	border-radius: 2px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+.vimeo-iframe{
+	width: 100%;
 }
 
 #project-text p{
@@ -50,14 +55,18 @@
 	line-height: 1.5;
 }
 
-#project-img{
-	align-self: center;
-	margin: 15px;
-	margin-bottom: 20px;
+.project-img{
+	width: 100%;
+	margin: 20px 0 30px 0;
 	border-radius: 2px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 920px){
+.aditional-img{
+	margin: 20px auto;
+}
+
+@media (max-width: 1020px){
 
 	#project-article{
 		flex-direction: column;
@@ -66,10 +75,29 @@
 
 	#project-info{
 		margin-top: 20px;
-		flex-direction: row;
 	}
+	
+}
 
-	#project-info p{
-		margin-right: 30px;
-	}
+#project-article h3{
+	margin-top: 40px;
+}
+
+#links{
+	margin-top: 15px;
+}
+
+#links li{
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-bottom: 10px;
+}
+
+#links li span{
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+#links a{
+	text-decoration: underline;
 }
