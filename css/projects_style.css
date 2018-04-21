@@ -92,7 +92,6 @@
 }
 
 .project a{
-
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -108,16 +107,18 @@
 .project h3{
 	font-size: 20px;
 	position: absolute;
-	top: 75%;
+	top: 100%;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0,0,0,0.3);
 	transition: top, padding-top;
-	transition-duration: 0.2s;
-	color: white;
+	transition-duration: 0.3s;
 	text-align: center;
-	padding-top: 7%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @media (max-width: 575.98px){
@@ -129,8 +130,6 @@
 
 .project:hover h3{
 	top: 0;
-	padding-top: 47%;
-
 }
 
 .project-section:not(.section-active){

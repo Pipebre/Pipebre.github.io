@@ -63,6 +63,18 @@ main{
 	justify-content: center;
 	flex-wrap: wrap;
 	box-sizing: border-box;
+	background-color: white;
+}
+
+@media (min-width: 768px) {
+
+	#main-header{
+		margin: 0 auto 20px auto;
+		padding: 40px 10px 20px 10px;
+		box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+		
+	}
+
 }
 
 #main-header h1{
