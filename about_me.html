@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/css/basic_style.css">
-	<link rel="stylesheet" type="text/css" href="/css/inside_project_style.css">
+	<link rel="stylesheet" type="text/css" href="/css/index_style.css">
 	<meta name="theme-color" content="#000000">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<title>Felipe Saravia</title>
@@ -25,10 +25,11 @@
 			<h1><a href="/index.html">Felipe Saravia</a></h1>
 			<nav>
 				<ul id="menu">
-					<li><a href="/index.html">Me</a></li>
+					<li><a href="/index.html">Me</a></li>	
 					<li><a href="/projects.html">Projects</a></li>
-					<li><a href="/about_me.html">About</a></li>	
-					<li><a href="/contact.html">Contact</a></li>			
+					<li class="active"><a href="/about_me.html">About</a></li>	
+					<li><a href="/contact.html">Contact</a></li>	
+
 				</ul>
 			</nav>
 
@@ -36,27 +37,20 @@
 
 		<main>
 
-			<article id="project-article">
+			<article id="about-article">
 
-				<ul id="project-info">
-					<li>
-						<h4>Release Date</h4>
-						<p>2015</p>
-					</li>
-				</ul>
+				<div id="article-text">
 
-				<div id="project-text">
+					<h2>About me</h2>
 
-					<h2>Termoimpacto</h2>
+					<p> My name is Felipe Saravia, I'm 23 years old, I'm from Santiago de Chile and I'm finishing my studies in musical composition for audiovisual media. In paralel to my studies, I have been working in little projects whenever I can. I mainly play piano and synthesizers but these days I'm having a lot of fun learning guitar, singing and messing around with the unlimited power of technology.
 
-					<iframe class="vimeo-iframe" src="https://player.vimeo.com/video/206224659" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					
-					<p>
-						Recomposition from a scene from documentary “Termoimpacto”.
-					</p>
+					I'm currently exploring different areas in where to develop myself, like music for videogames, films, theater, pop music, "classical" music, etc. To this day I can't decide one over the other. I love the infinity array of possible scenarios that the entertainment industry offers, where the spectators can freely choose in which and how they want to be part of. I like to be part of that with my voice, which is sound.</p>
 
 				</div>
 
+				<img id="article-img" src="/images/partitura.jpeg">
+				
 			</article>
 			
 
@@ -78,7 +72,6 @@
 	</div>
 
 	<script src="/javascript/menu.js"></script>
-	<script src="/javascript/vimeo_iframe.js"></script>
 
 </body>
 </html>
